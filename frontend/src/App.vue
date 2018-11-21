@@ -220,7 +220,7 @@
             "general-info-title general-info-title"
             "general-info-img general-info-content"
         ;
-        grid-template-rows: 26px 150px
+        grid-template-rows: auto 150px
     }
 
     #general-info-title {
@@ -257,7 +257,7 @@
             "program-title program-title"
             "program-content program-img"
         ;
-        grid-template-rows: 26px 220px
+        grid-template-rows: auto 220px
     }
 
     #program-title {
@@ -294,7 +294,7 @@
             "program-title program-title"
             "program-img program-content"
         ;
-        grid-template-rows: 26px 220px
+        grid-template-rows: auto 220px
     }
 
     #menu-title {

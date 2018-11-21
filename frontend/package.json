@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prod": "vue-cli-service serve --host galavis.net --port 81",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
