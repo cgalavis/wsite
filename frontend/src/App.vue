@@ -2,7 +2,7 @@
     <div id="app">
         <div id="header-panel">
             <div id="header">
-                <img src="wedding-title.png">
+                <img src="title2.png">
             </div>
         </div>
 
@@ -130,7 +130,7 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 180px 8px 1fr;
+        grid-template-rows: 90px 8px 1fr;
         grid-template-areas:
             "header"
             "space"
