@@ -6,14 +6,19 @@
             </div>
         </div>
         <div id="info-panel">
-            <div style="height: 4px;"></div>
+            <div class="section-divider"></div>
             <div id="info">
 
                 <div id="main-pic">
                     <slider animation="fade" style="height: 100%;" interval="10000">
                         <div id="main-pic-bck">
-                            <slider-item><img class="main-pic-img" src="main-pic.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="main-pic.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img000.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img001.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img002.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img003.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img004.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img005.jpg"></slider-item>
+                            <slider-item><img class="main-pic-img" src="gallery/img006.jpg"></slider-item>
                         </div>
                     </slider>
                 </div>
@@ -177,14 +182,13 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 0.8;
     }
 
 
     /* Info Sections */
 
     .section-divider {
-        height: 16px;
+        height: 4px;
     }
 
     .section {
