@@ -5,12 +5,13 @@
                 <img src="wedding-title.png">
             </div>
         </div>
-        <div id="info-panel">
-            <div class="section-divider"></div>
-            <div id="info">
 
+        <div id="space-panel"></div>
+
+        <div id="info-panel">
+            <div id="info">
                 <div id="main-pic">
-                    <slider animation="fade" style="height: 100%;" interval="10000">
+                    <slider animation="fade" style="height: 100%;" :interval="10000">
                         <div id="main-pic-bck">
                             <slider-item><img class="main-pic-img" src="gallery/img000.jpg"></slider-item>
                             <slider-item><img class="main-pic-img" src="gallery/img001.jpg"></slider-item>
@@ -35,6 +36,12 @@
                         <span style="font-size: 24px;font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
                             Visit Our Registry
                         </a></span>
+                    </div>
+                </div>
+
+                <div id="map-panel">
+                    <div id="map-wrap">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -114,10 +121,13 @@
 
     #app {
         display: grid;
-        grid-template-rows: 180px 1fr;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 8px 1fr;
         grid-template-areas:
-            "header header header"
-            "info info info";
+            "header"
+            "space"
+            "info";
 
         width: 100%;
         height: 100%;
@@ -148,6 +158,10 @@
         object-fit: cover;
     }
 
+    #space-panel {
+        grid-area: space;
+    }
+
 
     /* INFO */
 
@@ -155,7 +169,8 @@
         grid-area: info;
         width: 100%;
         height: auto;
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     #info {
@@ -169,7 +184,6 @@
         height: 400px;
         background-color: white;
         border: thin solid burlywood;
-        //box-shadow: 2px 2px 6px saddlebrown;
     }
 
     #main-pic-bck {
@@ -242,6 +256,23 @@
 
     #general-info-content {
         grid-area: general-info-content;
+    }
+
+    #map-panel {
+        width: 100%;
+        height: 302px;
+        border: thin solid sienna;
+        border-top: 0;
+    }
+
+    #map-wrap {
+        padding: 1px;
+        height: auto;
+    }
+
+    #map {
+        width: 100%;
+        height: 300px;
     }
 
 
