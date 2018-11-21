@@ -28,20 +28,26 @@
 
                 <div id="general-info" class="section">
                     <div id="general-info-title" class="section-title">General Information</div>
-                    <div id="general-info-img"><img src="caballero.jpg"></div>
-                    <div id="general-info-content"><br>
-                        Day of the Event: 01/19/2019<br>
-                        El Caballero Country Club<br>
+                    <div id="general-info-img">
+                        <img src="caballero.jpg">
+                        <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div id="general-info-content"><br><br>
+                        <b>Wellcome to Our Wedding Site</b><br>
+                        Come celebrate with us<br>
+                        The ceremony wil be held on<br>
+                        <b>January 19th 2019 at 5:00PM</b><br>
+                        The reception will follow<br><br>
+                        Location:<br><br>
+                        <b>El Caballero Country Club</b><br>
                         18300 Tarzana Dr. Tarzana, CA 91356<br><br>
                         <span style="font-size: 24px;font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
                             Visit Our Registry
-                        </a></span>
-                    </div>
-                </div>
+                        </a></span><br><br>
+                        Our families and closest<br>
+                        friends will gather to dance, dine and<br>
+                        have a great time. Hope you can make it!!
 
-                <div id="map-panel">
-                    <div id="map-wrap">
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -87,11 +93,12 @@
 
             <span style="font-size: 12px; color: brown;">
                 <p>
+                    ***<br><br>
                     Copyright ©2018 All Rights Reserved<br>
                     Images provided by Lin and Jirsa Premiere Wedding Photography
                 </p>
             </span>
-            <br><br>
+            <br>
         </div>
     </div>
 </template>
@@ -154,7 +161,7 @@
 
     #header > img {
         height: 100%;
-        opacity: 0.7;
+        opacity: 0.8;
         object-fit: cover;
     }
 
@@ -234,7 +241,7 @@
             "general-info-title general-info-title"
             "general-info-img general-info-content"
         ;
-        grid-template-rows: auto 150px
+        grid-template-rows: auto 400px
     }
 
     #general-info-title {
@@ -249,30 +256,18 @@
 
     #general-info-img > img {
         width: 100%;
-        height: 100%;
+        height: 150px;
         object-fit: cover;
         opacity: 0.9;
     }
 
+    #info-map {
+        width: 100%;
+        height: 244px;
+    }
+
     #general-info-content {
         grid-area: general-info-content;
-    }
-
-    #map-panel {
-        width: 100%;
-        height: 302px;
-        border: thin solid sienna;
-        border-top: 0;
-    }
-
-    #map-wrap {
-        padding: 1px;
-        height: auto;
-    }
-
-    #map {
-        width: 100%;
-        height: 300px;
     }
 
 
