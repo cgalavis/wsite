@@ -6,7 +6,6 @@
             </div>
         </div>
         <div id="info-panel">
-            <div class="section-divider"></div>
             <div id="info">
                 <div id="main-pic">
                     <slider animation="fade" style="height: 100%;" :interval="10000">
@@ -127,7 +126,7 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 90px 3px 1fr;
+        grid-template-rows: 100px 5px 1fr;
         grid-template-areas:
             "header"
             "."
@@ -148,7 +147,7 @@
         width: 100%;
         height: 100%;
         background-color: bisque;
-        border-bottom: solid 2px burlywood;
+        border-bottom: solid 4px burlywood;
     }
 
     #header {
