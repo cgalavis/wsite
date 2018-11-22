@@ -150,7 +150,7 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 84px 8px 1fr 32px;
+        grid-template-rows: 84px 4px 1fr 32px;
         grid-template-areas:
             "header"
             "."
@@ -171,7 +171,7 @@
         width: 100%;
         height: 100%;
         background-color: bisque;
-        border-bottom: solid 8px burlywood;
+        border-bottom: solid 4px burlywood;
     }
 
     #footer-panel {
@@ -183,7 +183,7 @@
     }
 
     #footer {
-        border-top: solid 8px burlywood;
+        border-top: solid 4px burlywood;
     }
 
     #header {
