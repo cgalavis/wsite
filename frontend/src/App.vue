@@ -5,10 +5,8 @@
                 <img src="title2.png">
             </div>
         </div>
-
-        <div id="space-panel"></div>
-
         <div id="info-panel">
+            <div class="section-divider"></div>
             <div id="info">
                 <div id="main-pic">
                     <slider animation="fade" style="height: 100%;" :interval="10000">
@@ -24,10 +22,7 @@
                     </slider>
                 </div>
 
-                <div class="section-divider"></div>
-
                 <div id="general-info" class="section">
-                    <div id="general-info-title" class="section-title">General Information</div>
                     <div id="general-info-img">
                         <img src="caballero.jpg">
                         <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
@@ -52,6 +47,7 @@
                 </div>
 
                 <div class="section-divider"></div>
+                <div class="section-divider"></div>
 
                 <div id="program" class="section">
                     <div id="program-title" class="section-title">Program</div>
@@ -72,6 +68,7 @@
                     <div id="program-img"><img src="reception.jpg"></div>
                 </div>
 
+                <div class="section-divider"></div>
                 <div class="section-divider"></div>
 
                 <div id="menu" class="section">
@@ -130,10 +127,10 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 90px 8px 1fr;
+        grid-template-rows: 90px 3px 1fr;
         grid-template-areas:
             "header"
-            "space"
+            "."
             "info";
 
         width: 100%;
@@ -165,10 +162,6 @@
         object-fit: cover;
     }
 
-    #space-panel {
-        grid-area: space;
-    }
-
 
     /* INFO */
 
@@ -191,7 +184,7 @@
         width: 100%;
         height: 400px;
         background-color: white;
-        border: thin solid burlywood;
+        border: thin solid sienna;
     }
 
     #main-pic-bck {
@@ -236,13 +229,13 @@
         width: 100%;
         display: grid;
         border: thin solid sienna;
+        border-top: 0;
 
         grid-template-columns: 1fr 300px;
         grid-template-areas:
-            "general-info-title general-info-title"
             "general-info-img general-info-content"
         ;
-        grid-template-rows: auto 400px
+        grid-template-rows: 390px
     }
 
     #general-info-title {
@@ -264,7 +257,7 @@
 
     #info-map {
         width: 100%;
-        height: 244px;
+        height: 234px;
     }
 
     #general-info-content {
