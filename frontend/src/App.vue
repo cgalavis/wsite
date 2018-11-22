@@ -94,7 +94,7 @@
 
                             <div class="menu-section">Entree</div>
                             Miso and Soy Chilean Sea Bass<br>
-                            Petite Filet with Red Wine Reduction<br>
+                            Filet of beef with Red Wine Reduction<br>
                             Mushroom Risotto<br>
                             Seasonal Roasted Vegetables<br><br>
                             **<br><br>
@@ -280,7 +280,7 @@
         grid-template-areas:
             "general-info-img general-info-content"
         ;
-        grid-template-rows: 505px
+        grid-template-rows: 509px
     }
 
     #general-info-img {
@@ -319,7 +319,7 @@
             "program-title program-title"
             "program-content program-img"
         ;
-        grid-template-rows: auto 242px
+        grid-template-rows: auto 247px
     }
 
     #program-title {
@@ -356,7 +356,7 @@
             "program-title program-title"
             "program-img program-content"
         ;
-        grid-template-rows: auto 490px
+        grid-template-rows: auto 495px
     }
 
     #menu-title {
