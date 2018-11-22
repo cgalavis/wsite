@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "prod": "vue-cli-service serve --host galavis.net --port 81",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "serve -l 80 -s dist/"
   },
   "dependencies": {
     "vue": "^2.5.17",
