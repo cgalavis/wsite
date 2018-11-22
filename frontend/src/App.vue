@@ -6,95 +6,118 @@
             </div>
         </div>
         <div id="info-panel">
-            <div id="info">
-                <div id="main-pic">
-                    <slider animation="fade" style="height: 100%;" :interval="10000">
-                        <div id="main-pic-bck">
-                            <slider-item><img class="main-pic-img" src="gallery/img000.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img001.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img002.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img003.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img004.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img005.jpg"></slider-item>
-                            <slider-item><img class="main-pic-img" src="gallery/img006.jpg"></slider-item>
+            <div id="info-sections">
+                <br>
+                <div id="info">
+                    <div id="main-pic">
+                        <slider animation="fade" style="height: 100%;" :interval="10000">
+                            <div id="main-pic-bck">
+                                <slider-item><img class="main-pic-img" src="gallery/img000.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img001.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img002.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img003.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img004.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img005.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img006.jpg"></slider-item>
+                            </div>
+                        </slider>
+                    </div>
+
+                    <div id="general-info" class="section">
+                        <div id="general-info-img">
+                            <img src="caballero.jpg">
+                            <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
                         </div>
-                    </slider>
-                </div>
+                        <div id="general-info-content"><br><br>
+                            <b>Wellcome to Our Wedding Site</b><br>
+                            Come celebrate with us<br>
+                            The ceremony wil be held on<br>
+                            <b>January 19th 2019 at 5:00PM</b><br>
+                            The reception will follow<br><br>
+                            Location:<br><br>
+                            <b>El Caballero Country Club</b><br>
+                            18300 Tarzana Dr. Tarzana, CA 91356<br><br>
+                            Our families and closest<br>
+                            friends will gather to dance, dine and<br>
+                            have a great time. Hope you can make it!!<br><br>
 
-                <div id="general-info" class="section">
-                    <div id="general-info-img">
-                        <img src="caballero.jpg">
-                        <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
+                            Visit our registry below <br><br>
+                            <span style="font-size: 24px">👍</span><br><br>
+
+                            <div style="border: 2px solid sienna; margin-left: 24px; margin-right: 24px;">
+                                <span style="font-size: 42px; font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
+                                    Registry
+                                </a></span>
+                            </div>
+                        </div>
                     </div>
-                    <div id="general-info-content"><br><br>
-                        <b>Wellcome to Our Wedding Site</b><br>
-                        Come celebrate with us<br>
-                        The ceremony wil be held on<br>
-                        <b>January 19th 2019 at 5:00PM</b><br>
-                        The reception will follow<br><br>
-                        Location:<br><br>
-                        <b>El Caballero Country Club</b><br>
-                        18300 Tarzana Dr. Tarzana, CA 91356<br><br>
-                        <span style="font-size: 24px;font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
-                            Visit Our Registry
-                        </a></span><br><br>
-                        Our families and closest<br>
-                        friends will gather to dance, dine and<br>
-                        have a great time. Hope you can make it!!
 
+                    <div class="section-divider"></div>
+                    <div class="section-divider"></div>
+
+                    <div id="program" class="section">
+                        <div id="program-title" class="section-title">Program</div>
+                        <div id="program-content" style="text-align: left;">
+                            <table>
+                                <tr><td style="width: 75px;">&nbsp;04:45PM</td><td>Arrival</td></tr>
+                                <tr><td>&nbsp;05:00PM</td><td>Ceremony</td></tr>
+                                <tr><td>&nbsp;06:00PM</td><td>Cocktail Hour / Pictures</td></tr>
+                                <tr><td>&nbsp;07:00PM</td><td>First Dance</td></tr>
+                                <tr><td>&nbsp;07:05PM</td><td>Father Daughter Dance</td></tr>
+                                <tr><td>&nbsp;07:30PM</td><td>Champagne Toast</td></tr>
+                                <tr><td>&nbsp;07:45PM</td><td>Dinner</td></tr>
+                                <tr><td>&nbsp;09:00PM</td><td>Sunday Bar</td></tr>
+                                <tr><td>&nbsp;09:30PM</td><td>Open Dance Floor</td></tr>
+                                <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
+
+                            </table>
+                        </div>
+                        <div id="program-img"><img src="reception.jpg"></div>
                     </div>
-                </div>
 
-                <div class="section-divider"></div>
-                <div class="section-divider"></div>
+                    <div class="section-divider"></div>
+                    <div class="section-divider"></div>
 
-                <div id="program" class="section">
-                    <div id="program-title" class="section-title">Program</div>
-                    <div id="program-content" style="text-align: left;">
-                        <table>
-                            <tr><td style="width: 75px;">&nbsp;05:00PM</td><td>Ceremony</td></tr>
-                            <tr><td>&nbsp;06:00PM</td><td>Cocktail Hour / Pictures</td></tr>
-                            <tr><td>&nbsp;07:00PM</td><td>First Dance</td></tr>
-                            <tr><td>&nbsp;07:05PM</td><td>Father Daughter Dance</td></tr>
-                            <tr><td>&nbsp;07:30PM</td><td>Toast</td></tr>
-                            <tr><td>&nbsp;07:45PM</td><td>Dinner</td></tr>
-                            <tr><td>&nbsp;09:00PM</td><td>Sunday Bar</td></tr>
-                            <tr><td>&nbsp;09:30PM</td><td>Open Dance Floor</td></tr>
-                            <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
+                    <div id="menu" class="section">
+                        <div id="menu-title" class="section-title">Dinner Menu</div>
+                        <div id="menu-img"><img src="menu.jpg"></div>
+                        <div id="menu-content"><br>
+                            <div class="menu-section">Appetizers</div>
+                            Cheese and bread bar will be available<br>
+                            during the cocktail hour<br><br>
+                            **<br><br>
 
-                        </table>
+                            <div class="menu-section">Salad</div>
+                            Beet and Goat Cheese Salad<br>
+                            Djon Vinaigrette<br><br>
+                            **<br><br>
+
+                            <div class="menu-section">Entree</div>
+                            Miso and Soy Chilean Sea Bass<br>
+                            Petite Filet with Red Wine Reduction<br>
+                            Mushroom Risotto<br>
+                            Seasonal Roasted Vegetables<br><br>
+                            **<br><br>
+
+                            <div class="menu-section">Dessert</div>
+                            Sundae Bar will be available<br>
+                            after dinner<br>
+                        </div>
                     </div>
-                    <div id="program-img"><img src="reception.jpg"></div>
-                </div>
+                </div><br>
 
-                <div class="section-divider"></div>
-                <div class="section-divider"></div>
-
-                <div id="menu" class="section">
-                    <div id="menu-title" class="section-title">Dinner Menu</div>
-                    <div id="menu-img"><img src="menu.jpg"></div>
-                    <div id="menu-content"><br>
-                        <div class="menu-section">Salad</div>
-                        Beet and Goat Salad<br>
-                        Djon Vinaigrette<br><br>
-
-                        <div class="menu-section">Entree</div>
-                        Miso and Soy Chilean Sea Bass<br>
-                        Petite Filet with Red Wine Reduction<br>
-                        Mushroom Risotto<br>
-                        Seasonal Roasted Vegetables<br>
-                    </div>
-                </div>
-            </div><br>
-
-            <span style="font-size: 12px; color: brown;">
-                <p>
-                    ***<br><br>
-                    Copyright ©2018 All Rights Reserved<br>
-                    Images provided by Lin and Jirsa Premiere Wedding Photography
-                </p>
-            </span>
-            <br>
+                <span style="font-size: 12px; color: brown;">
+                    <p>
+                        ***<br><br>
+                        Copyright ©2018 All Rights Reserved<br>
+                        Images provided by Lin and Jirsa Premiere Wedding Photography
+                    </p>
+                </span>
+                <br>
+            </div>
+        </div>
+        <div id="footer-panel">
+            <div id="footer"></div>
         </div>
     </div>
 </template>
@@ -120,19 +143,20 @@
 <style>
     a {
         color: brown;
+        text-decoration: none;
     }
 
     #app {
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 100px 5px 1fr;
+        grid-template-rows: 130px 8px 1fr 32px;
         grid-template-areas:
             "header"
             "."
-            "info";
+            "info"
+            "footer";
 
-        width: 100%;
         height: 100%;
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -147,7 +171,19 @@
         width: 100%;
         height: 100%;
         background-color: bisque;
-        border-bottom: solid 4px burlywood;
+        border-bottom: solid 8px burlywood;
+    }
+
+    #footer-panel {
+        grid-area: footer;
+        width: 100%;
+        height: 100%;
+        background-color: bisque;
+        background-image: url("assets/bck-canvas.jpg");
+    }
+
+    #footer {
+        border-top: solid 8px burlywood;
     }
 
     #header {
@@ -166,6 +202,11 @@
 
     #info-panel {
         grid-area: info;
+        display: grid;
+        grid-template-columns: 16px 1fr 16px;
+        grid-template-areas: ". sections .";
+
+
         width: 100%;
         height: auto;
         overflow-y: auto;
@@ -173,10 +214,15 @@
         -webkit-overflow-scrolling: touch;
     }
 
+    #info-sections {
+        grid-area: sections;
+    }
+
     #info {
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;
+        box-shadow: 1px 1px 25px #ca907a;;
     }
 
     #main-pic {
@@ -202,7 +248,7 @@
     /* Info Sections */
 
     .section-divider {
-        height: 4px;
+        height: 0;
     }
 
     .section {
@@ -234,11 +280,7 @@
         grid-template-areas:
             "general-info-img general-info-content"
         ;
-        grid-template-rows: 390px
-    }
-
-    #general-info-title {
-        grid-area: general-info-title;
+        grid-template-rows: 505px
     }
 
     #general-info-img {
@@ -249,14 +291,15 @@
 
     #general-info-img > img {
         width: 100%;
-        height: 150px;
+        height: 210px;
         object-fit: cover;
         opacity: 0.9;
     }
 
     #info-map {
+        margin-top: -3px;
         width: 100%;
-        height: 234px;
+        height: 291px;
     }
 
     #general-info-content {
@@ -271,12 +314,12 @@
         display: grid;
         border: thin solid sienna;
 
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 320px 1fr;
         grid-template-areas:
             "program-title program-title"
             "program-content program-img"
         ;
-        grid-template-rows: auto 220px
+        grid-template-rows: auto 242px
     }
 
     #program-title {
@@ -313,7 +356,7 @@
             "program-title program-title"
             "program-img program-content"
         ;
-        grid-template-rows: auto 220px
+        grid-template-rows: auto 490px
     }
 
     #menu-title {
