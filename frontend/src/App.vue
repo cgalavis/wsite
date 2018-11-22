@@ -42,7 +42,7 @@
                             have a great time. Hope you can make it!!<br><br>
 
                             Visit our registry below <br><br>
-                            <span style="font-size: 24px">👍</span><br><br>
+                            <span style="font-size: 28px">👍</span><br><br>
 
                             <div style="border: 2px solid sienna; margin-left: 24px; margin-right: 24px;">
                                 <span style="font-size: 42px; font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
@@ -66,7 +66,7 @@
                                 <tr><td>&nbsp;07:05PM</td><td>Father Daughter Dance</td></tr>
                                 <tr><td>&nbsp;07:30PM</td><td>Champagne Toast</td></tr>
                                 <tr><td>&nbsp;07:45PM</td><td>Dinner</td></tr>
-                                <tr><td>&nbsp;09:00PM</td><td>Sunday Bar</td></tr>
+                                <tr><td>&nbsp;09:00PM</td><td>Sundae Bar</td></tr>
                                 <tr><td>&nbsp;09:30PM</td><td>Open Dance Floor</td></tr>
                                 <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
 
@@ -85,19 +85,18 @@
                             <div class="menu-section">Appetizers</div>
                             Cheese and bread bar will be available<br>
                             during the cocktail hour<br><br>
-                            **<br><br>
 
                             <div class="menu-section">Salad</div>
-                            Beet and Goat Cheese Salad<br>
-                            Djon Vinaigrette<br><br>
-                            **<br><br>
+                            Roasted Beets<br>
+                            Arugula, Pickled Red Onion<br>
+                            Feta Cheese and Lemon Vinaigrette<br><br>
 
                             <div class="menu-section">Entree</div>
-                            Miso and Soy Chilean Sea Bass<br>
-                            Filet of beef with Red Wine Reduction<br>
+                            Chilean Sea Bass with Miso ButterSauce<br>
+                            Filet Mignon with Port Reduction<br>
                             Mushroom Risotto<br>
+                            Creamy Parmesan Polenta<br>
                             Seasonal Roasted Vegetables<br><br>
-                            **<br><br>
 
                             <div class="menu-section">Dessert</div>
                             Sundae Bar will be available<br>
@@ -280,7 +279,7 @@
         grid-template-areas:
             "general-info-img general-info-content"
         ;
-        grid-template-rows: 509px
+        grid-template-rows: 519px
     }
 
     #general-info-img {
@@ -299,7 +298,7 @@
     #info-map {
         margin-top: -3px;
         width: 100%;
-        height: 291px;
+        height: 301px;
     }
 
     #general-info-content {
@@ -320,7 +319,7 @@
             "program-title program-title"
             "program-content program-img"
         ;
-        grid-template-rows: auto 247px
+        grid-template-rows: auto 255px
     }
 
     #program-title {
@@ -358,7 +357,7 @@
             "program-title program-title"
             "program-img program-content"
         ;
-        grid-template-rows: auto 495px
+        grid-template-rows: auto 440px
     }
 
     #menu-title {
