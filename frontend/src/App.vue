@@ -2,12 +2,12 @@
     <div id="app">
         <div id="header-panel">
             <div id="header">
-                <img src="title2.png">
+                <img src="title3.png">
             </div>
         </div>
         <div id="info-panel">
             <div id="info-sections">
-                <br>
+                <div style="height: 16px"></div>
                 <div id="info">
                     <div id="main-pic">
                         <slider animation="fade" style="height: 100%;" :interval="10000">
@@ -150,7 +150,7 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 130px 8px 1fr 32px;
+        grid-template-rows: 84px 8px 1fr 32px;
         grid-template-areas:
             "header"
             "."
@@ -264,7 +264,7 @@
         background-color: sienna;
         color: antiquewhite;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 22px;
     }
 
 
@@ -304,6 +304,7 @@
 
     #general-info-content {
         grid-area: general-info-content;
+        border-left: sienna thin solid;
     }
 
 
@@ -340,6 +341,7 @@
 
     #program-content {
         grid-area: program-content;
+        border-right: sienna thin solid;
         padding: 6px;
     }
 
@@ -378,6 +380,7 @@
     #menu-content {
         grid-area: program-content;
         text-align: center;
+        border-left: sienna thin solid;
     }
 
     .menu-section {
