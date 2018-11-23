@@ -28,7 +28,7 @@
                             <img src="caballero.jpg">
                             <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div id="general-info-content"><br><br>
+                        <div id="general-info-content"><br>
                             <b>Wellcome to Our Wedding Site</b><br>
                             Come celebrate with us<br>
                             The ceremony wil be held on<br>
@@ -48,7 +48,7 @@
                                 <span style="font-size: 42px; font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
                                     Registry
                                 </a></span>
-                            </div>
+                            </div><br>
                         </div>
                     </div>
 
@@ -69,10 +69,9 @@
                                 <tr><td>&nbsp;09:00PM</td><td>Sundae Bar</td></tr>
                                 <tr><td>&nbsp;09:30PM</td><td>Open Dance Floor</td></tr>
                                 <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
-
                             </table>
                         </div>
-                        <div id="program-img"><img src="reception.jpg"></div>
+                        <div id="program-img"><!--<img src="reception.jpg">--></div>
                     </div>
 
                     <div class="section-divider"></div>
@@ -80,7 +79,7 @@
 
                     <div id="menu" class="section">
                         <div id="menu-title" class="section-title">Dinner Menu</div>
-                        <div id="menu-img"><img src="menu.jpg"></div>
+                        <div id="menu-img"><!--<img src="menu.jpg">--></div>
                         <div id="menu-content"><br>
                             <div class="menu-section">Appetizers</div>
                             Cheese and bread bar will be available<br>
@@ -100,7 +99,7 @@
 
                             <div class="menu-section">Dessert</div>
                             Sundae Bar will be available<br>
-                            after dinner<br>
+                            after dinner<br><br>
                         </div>
                     </div>
                 </div><br>
@@ -276,14 +275,15 @@
         border-top: 0;
 
         grid-template-columns: 1fr 300px;
+        grid-template-rows: auto;
         grid-template-areas:
             "general-info-img general-info-content"
         ;
-        grid-template-rows: 519px
     }
 
     #general-info-img {
         grid-area: general-info-img;
+        height: 100%;
         margin: 1px;
         opacity: 0.8;
     }
@@ -296,9 +296,9 @@
     }
 
     #info-map {
-        margin-top: -3px;
+        margin-top: -4px;
         width: 100%;
-        height: 301px;
+        height: calc(100% - 213px);
     }
 
     #general-info-content {
@@ -319,7 +319,7 @@
             "program-title program-title"
             "program-content program-img"
         ;
-        grid-template-rows: auto 255px
+        grid-template-rows: auto auto
     }
 
     #program-title {
@@ -329,11 +329,14 @@
     #program-img {
         grid-area: program-img;
         margin: 1px;
+        background-image: url("assets/reception.jpg");
+        background-size: cover;
+        opacity: 0.8;
     }
 
     #program-img > img {
         width: 100%;
-        height: 100%;
+        height: auto;
         object-fit: cover;
         opacity: 0.8;
     }
@@ -341,7 +344,7 @@
     #program-content {
         grid-area: program-content;
         border-right: sienna thin solid;
-        padding: 6px;
+        padding: 12px;
     }
 
 
@@ -357,7 +360,7 @@
             "program-title program-title"
             "program-img program-content"
         ;
-        grid-template-rows: auto 440px
+        grid-template-rows: auto auto
     }
 
     #menu-title {
@@ -367,6 +370,9 @@
     #menu-img {
         grid-area: program-img;
         margin: 1px;
+        background-image: url("assets/menu.jpg");
+        background-size: cover;
+        opacity: 0.8;
     }
 
     #menu-img > img {
