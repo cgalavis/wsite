@@ -52,11 +52,7 @@
                         </div>
                     </div>
 
-                    <div class="section-divider"></div>
-                    <div class="section-divider"></div>
-
                     <div id="program" class="section">
-                        <div id="program-title" class="section-title">Program</div>
                         <div id="program-content" style="text-align: left;">
                             <table>
                                 <tr><td style="width: 75px;">&nbsp;04:45PM</td><td>Arrival</td></tr>
@@ -71,15 +67,11 @@
                                 <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
                             </table>
                         </div>
-                        <div id="program-img"><!--<img src="reception.jpg">--></div>
+                        <div id="program-img" class="section-img"><div class="section-title">Program</div></div>
                     </div>
 
-                    <div class="section-divider"></div>
-                    <div class="section-divider"></div>
-
                     <div id="menu" class="section">
-                        <div id="menu-title" class="section-title">Dinner Menu</div>
-                        <div id="menu-img"><!--<img src="menu.jpg">--></div>
+                        <div id="menu-img" class="section-img"><div class="section-title">Menu</div></div>
                         <div id="menu-content"><br>
                             <div class="menu-section">Appetizers</div>
                             Cheese and bread bar will be available<br>
@@ -106,7 +98,7 @@
 
                 <span style="font-size: 12px; color: brown;">
                     <p>
-                        ***<br><br>
+                        **<br><br>
                         Copyright ©2018 All Rights Reserved<br>
                         Images provided by Lin and Jirsa Premiere Wedding Photography
                     </p>
@@ -148,7 +140,7 @@
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: 84px 4px 1fr 32px;
+        grid-template-rows: 84px 4px 1fr 12px;
         grid-template-areas:
             "header"
             "."
@@ -217,7 +209,7 @@
     }
 
     #info {
-        max-width: 900px;
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 1px 1px 25px #ca907a;;
@@ -225,7 +217,7 @@
 
     #main-pic {
         width: 100%;
-        height: 400px;
+        height: 440px;
         background-color: white;
         border: thin solid sienna;
     }
@@ -245,10 +237,6 @@
 
     /* Info Sections */
 
-    .section-divider {
-        height: 0;
-    }
-
     .section {
         width: 100%;
         text-align: center;
@@ -256,13 +244,21 @@
         color: sienna;
     }
 
+    .section-img {
+        margin: 1px;
+        background-size: cover;
+        opacity: 0.8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .section-title {
-        width: 100%;
-        text-align: center;
-        background-color: sienna;
-        color: antiquewhite;
+        color: white;
+        font-size: 64px;
         font-weight: bold;
-        font-size: 22px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: maroon;
     }
 
 
@@ -324,21 +320,12 @@
 
     #program-title {
         grid-area: program-title;
+        maring: auto;
     }
 
     #program-img {
         grid-area: program-img;
-        margin: 1px;
         background-image: url("assets/reception.jpg");
-        background-size: cover;
-        opacity: 0.8;
-    }
-
-    #program-img > img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        opacity: 0.8;
     }
 
     #program-content {
@@ -363,23 +350,10 @@
         grid-template-rows: auto auto
     }
 
-    #menu-title {
-        grid-area: program-title;
-    }
-
     #menu-img {
         grid-area: program-img;
-        margin: 1px;
+        position: relative;
         background-image: url("assets/menu.jpg");
-        background-size: cover;
-        opacity: 0.8;
-    }
-
-    #menu-img > img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.8;
     }
 
     #menu-content {
