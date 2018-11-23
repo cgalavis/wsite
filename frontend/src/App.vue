@@ -54,16 +54,16 @@
 
                     <div id="program" class="section">
                         <div id="program-content" style="text-align: left;">
-                            &nbsp;04:45PM&nbsp;&nbsp;&nbsp;Arrival<br>
-                            &nbsp;05:00PM&nbsp;&nbsp;&nbsp;Ceremony<br>
-                            &nbsp;06:00PM&nbsp;&nbsp;&nbsp;Cocktail Hour<br>
-                            &nbsp;07:00PM&nbsp;&nbsp;&nbsp;First Dance<br>
-                            &nbsp;07:05PM&nbsp;&nbsp;&nbsp;Father and Daughter Dance<br>
-                            &nbsp;07:30PM&nbsp;&nbsp;&nbsp;Champagne Toast<br>
-                            &nbsp;07:45PM&nbsp;&nbsp;&nbsp;Dinner<br>
-                            &nbsp;09:00PM&nbsp;&nbsp;&nbsp;Sunday Bar<br>
-                            &nbsp;09:30PM&nbsp;&nbsp;&nbsp;Open Dance Floor<br>
-                            &nbsp;11:00PM&nbsp;&nbsp;&nbsp;Thee End<br>
+                            <div class="program-item">04:45PM&nbsp;&nbsp;&nbsp;Arrival</div>
+                            <div class="program-item">05:00PM&nbsp;&nbsp;&nbsp;Ceremony</div>
+                            <div class="program-item">06:00PM&nbsp;&nbsp;&nbsp;Cocktail Hour</div>
+                            <div class="program-item">07:00PM&nbsp;&nbsp;&nbsp;First Dance</div>
+                            <div class="program-item">07:05PM&nbsp;&nbsp;&nbsp;Father and Daughter Dance</div>
+                            <div class="program-item">07:30PM&nbsp;&nbsp;&nbsp;Champagne Toast</div>
+                            <div class="program-item">07:45PM&nbsp;&nbsp;&nbsp;Dinner</div>
+                            <div class="program-item">09:00PM&nbsp;&nbsp;&nbsp;Sunday Bar</div>
+                            <div class="program-item">09:30PM&nbsp;&nbsp;&nbsp;Open Dance Floor</div>
+                            <div class="program-item">11:00PM&nbsp;&nbsp;&nbsp;Thee End</div>
                         </div>
                         <div id="program-img" class="section-img"><div class="section-title">Program</div></div>
                     </div>
@@ -93,15 +93,6 @@
                         </div>
                     </div>
                 </div><br>
-
-                <span style="font-size: 12px; color: brown;">
-                    <p>
-                        **<br><br>
-                        Copyright ©2018 All Rights Reserved<br>
-                        Images provided by Lin and Jirsa Premiere Wedding Photography
-                    </p>
-                </span>
-                <br>
             </div>
         </div>
         <div id="footer-panel">
@@ -325,7 +316,12 @@
     #program-content {
         grid-area: program-content;
         border-right: sienna thin solid;
-        padding: 16px;
+        padding: 16px 28px;
+    }
+
+    .program-item {
+        height: 22px;
+        padding-top: 8px;
     }
 
 
