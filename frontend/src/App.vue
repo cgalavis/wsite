@@ -28,7 +28,7 @@
                             <img src="caballero.jpg">
                             <iframe id="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.461727746905!2d-118.53503934813945!3d34.160110819387704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299aa631697a3%3A0x190c32e28cad0295!2sEl+Caballero+Country+Club!5e0!3m2!1sen!2sus!4v1542837136116" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div id="general-info-content"><br>
+                        <div id="general-info-content">
                             <b>Wellcome to Our Wedding Site</b><br>
                             Come celebrate with us<br>
                             The ceremony wil be held on<br>
@@ -48,31 +48,29 @@
                                 <span style="font-size: 42px; font-weight: bold;"><a href="https://www.amazon.com/wedding/natalia-minassian-carlos-galavis-tarzana-january-2019/registry/3MT3413YVDB80"  target="_blank">
                                     Registry
                                 </a></span>
-                            </div><br>
+                            </div>
                         </div>
                     </div>
 
                     <div id="program" class="section">
                         <div id="program-content" style="text-align: left;">
-                            <table>
-                                <tr><td style="width: 75px;">&nbsp;04:45PM</td><td>Arrival</td></tr>
-                                <tr><td>&nbsp;05:00PM</td><td>Ceremony</td></tr>
-                                <tr><td>&nbsp;06:00PM</td><td>Cocktail Hour / Pictures</td></tr>
-                                <tr><td>&nbsp;07:00PM</td><td>First Dance</td></tr>
-                                <tr><td>&nbsp;07:05PM</td><td>Father Daughter Dance</td></tr>
-                                <tr><td>&nbsp;07:30PM</td><td>Champagne Toast</td></tr>
-                                <tr><td>&nbsp;07:45PM</td><td>Dinner</td></tr>
-                                <tr><td>&nbsp;09:00PM</td><td>Sundae Bar</td></tr>
-                                <tr><td>&nbsp;09:30PM</td><td>Open Dance Floor</td></tr>
-                                <tr><td>&nbsp;11:00PM</td><td>End</td></tr>
-                            </table>
+                            &nbsp;04:45PM&nbsp;&nbsp;&nbsp;Arrival<br>
+                            &nbsp;05:00PM&nbsp;&nbsp;&nbsp;Ceremony<br>
+                            &nbsp;06:00PM&nbsp;&nbsp;&nbsp;Cocktail Hour<br>
+                            &nbsp;07:00PM&nbsp;&nbsp;&nbsp;First Dance<br>
+                            &nbsp;07:05PM&nbsp;&nbsp;&nbsp;Father and Daughter Dance<br>
+                            &nbsp;07:30PM&nbsp;&nbsp;&nbsp;Champagne Toast<br>
+                            &nbsp;07:45PM&nbsp;&nbsp;&nbsp;Dinner<br>
+                            &nbsp;09:00PM&nbsp;&nbsp;&nbsp;Sunday Bar<br>
+                            &nbsp;09:30PM&nbsp;&nbsp;&nbsp;Open Dance Floor<br>
+                            &nbsp;11:00PM&nbsp;&nbsp;&nbsp;Thee End<br>
                         </div>
                         <div id="program-img" class="section-img"><div class="section-title">Program</div></div>
                     </div>
 
                     <div id="menu" class="section">
                         <div id="menu-img" class="section-img"><div class="section-title">Menu</div></div>
-                        <div id="menu-content"><br>
+                        <div id="menu-content">
                             <div class="menu-section">Appetizers</div>
                             Cheese and bread bar will be available<br>
                             during the cocktail hour<br><br>
@@ -91,7 +89,7 @@
 
                             <div class="menu-section">Dessert</div>
                             Sundae Bar will be available<br>
-                            after dinner<br><br>
+                            after dinner<br>
                         </div>
                     </div>
                 </div><br>
@@ -270,7 +268,7 @@
         border: thin solid sienna;
         border-top: 0;
 
-        grid-template-columns: 1fr 300px;
+        grid-template-columns: 1fr auto;
         grid-template-rows: auto;
         grid-template-areas:
             "general-info-img general-info-content"
@@ -300,6 +298,7 @@
     #general-info-content {
         grid-area: general-info-content;
         border-left: sienna thin solid;
+        padding: 16px;
     }
 
 
@@ -310,17 +309,12 @@
         display: grid;
         border: thin solid sienna;
 
-        grid-template-columns: 320px 1fr;
+        grid-template-columns: auto 1fr;
         grid-template-areas:
             "program-title program-title"
             "program-content program-img"
         ;
         grid-template-rows: auto auto
-    }
-
-    #program-title {
-        grid-area: program-title;
-        maring: auto;
     }
 
     #program-img {
@@ -331,7 +325,7 @@
     #program-content {
         grid-area: program-content;
         border-right: sienna thin solid;
-        padding: 12px;
+        padding: 16px;
     }
 
 
@@ -342,7 +336,7 @@
         display: grid;
         border: thin solid sienna;
 
-        grid-template-columns: 1fr 350px;
+        grid-template-columns: 1fr auto;
         grid-template-areas:
             "program-title program-title"
             "program-img program-content"
@@ -360,6 +354,7 @@
         grid-area: program-content;
         text-align: center;
         border-left: sienna thin solid;
+        padding: 16px;
     }
 
     .menu-section {
