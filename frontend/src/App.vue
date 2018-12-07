@@ -19,6 +19,12 @@
                                 <slider-item><img class="main-pic-img" src="gallery/img004.jpg"></slider-item>
                                 <slider-item><img class="main-pic-img" src="gallery/img005.jpg"></slider-item>
                                 <slider-item><img class="main-pic-img" src="gallery/img006.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img007.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img008.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img009.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img010.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img011.jpg"></slider-item>
+                                <slider-item><img class="main-pic-img" src="gallery/img012.jpg"></slider-item>
                             </div>
                         </slider>
                     </div>
